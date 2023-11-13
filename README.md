@@ -20,7 +20,7 @@
       - Выполнить команду `git config --global user.name имя_пользователя` для установки имени пользователя.
       - Выполнить команду `git config --global user.email email_пользователя` для установки email пользователя.
          <p align="center">
-            <img src="Screenshots/2.png"><br>
+            <img src="screenshots/2.png"><br>
             Рисунок 3 - Настройка клиента Git
          </p>
 4. Создаем локальную копию удаленного репозитория
@@ -28,72 +28,72 @@
      - Перейти в желаемое место расположения репозитория с помощью команды `cd название_папки`.
      - С помощью команды `git clone адрес_репозтория` скопировать репозиторий.
       <p align="center">
-         <img src="Screenshots/3.png"><br>
+         <img src="screenshots/3.png"><br>
          Рисунок 4 - Создание локальной копии удаленного репозитория
       </p>
 5.  Добавляем тестовый файл через интерфейс GitHub
     - Для того чтобы добавить тестовый файл в наш репозиторий переходим на страницу нашего репозитория на сайте GitHub. После этого нажимаем на кнопку "Add file". В окне создания файла даем ему название "Test_file.txt". После подтверждения создания файла автоматически содается коммит "Create Test_file.txt".
       <p align="center">
-         <img src="Screenshots/4.png"><br>
+         <img src="screenshots/4.png"><br>
          Рисунок 5 - Созданный файл через интерфейс GitHub
       </p>
 6. Добовление созданного файла в локальный репозиторий
    - Для подтягивания созданного файла используется команда `git pull`
       <p align="center">
-         <img src="Screenshots/5.png"><br>
+         <img src="screenshots/5.png"><br>
          Рисунок 6 - Подтягивание файла с помощью git pull
       </p>
 7. Получаем и просматриваем историю операций
    - Для того чтобы получить историю операция для ветки воспользуемся командой `git log`. 
       <p align="center">
-         <img src="Screenshots/6.png"><br>
+         <img src="screenshots/6.png"><br>
          Рисунок 7 - Просмотр истории операций 
       </p> 
 8. Создание новой ветки
    - Для создания новой ветки была использована команда `git branch название_ветки`, для перехода в новую ветку была использована команда `git checkout название_ветки`
       <p align="center">
-         <img src="Screenshots/7.png"><br>
+         <img src="screenshots/7.png"><br>
          Рисунок 8 - Создание новой ветки 
       </p> 
    - В этой новой ветке был изменен файл mergefile.txt для создания конфликта при слиянии, был сделан коммит с изменением этого файла.
       <p align="center">
-         <img src="Screenshots/8.png"><br>
+         <img src="screenshots/8.png"><br>
          Рисунок 9 - Изменение файла mergefile.txt 
       </p>  
 9. Слияние двух веток
    - Чтобы выполнить слияние созданных веток нужно перейти в ветку в которую будет произведено слияние (в нашем случае master), и использовать команду `git merge название_ветки`
       <p align="center">
-         <img src="Screenshots/9.png"><br>
+         <img src="screenshots/9.png"><br>
          Рисунок 10 - Слияние веток 
       </p>
 10. Удаление оставшейся после слияния ветки
     - Для удаления ветки используется команда `git branch -d название_ветки`
       <p align="center">
-         <img src="Screenshots/10.png"><br>
+         <img src="screenshots/10.png"><br>
          Рисунок 11 - Удаление ненужной ветки 
       </p> 
 11. Создаем новый файл и изменяем его несколько раз, откатываем коммит
       <p align="center">
-         <img src="Screenshots/11.png"><br>
+         <img src="screenshots/11.png"><br>
          Рисунок 12 - Создание новых файлов и удаление одного из них
       </p>
       <p align="center">
-         <img src="Screenshots/12.png"><br>
+         <img src="screenshots/12.png"><br>
          Рисунок 12 - Отмена последнего комита
       </p>
 12. Создаём ветку для отчёта
       <p align="center">
-         <img src="Screenshots/13.png"><br>
+         <img src="screenshots/13.png"><br>
          Рисунок 12 - Создание новой ветки
       </p>
 13. Получение истории операций в форматированном виде
     - Для получения истории операций в необходимом формате используется команда `git log --pretty=format:"%h + %cd + %an + %s"`
       <p align="center">
-         <img src="Screenshots/13.png"><br>
+         <img src="screenshots/13.png"><br>
          Рисунок 14 - История операций для ветки master
       </p>
       <p align="center">
-         <img src="Screenshots/14.png"><br>
+         <img src="screenshots/14.png"><br>
          Рисунок 15 - История операций для ветки report
       </p>
 ### Вывод
