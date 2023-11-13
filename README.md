@@ -84,16 +84,16 @@
 12. Создаём ветку для отчёта
       <p align="center">
          <img src="screenshots/13.png"><br>
-         Рисунок 12 - Создание новой ветки
+         Рисунок 13 - Создание новой ветки
       </p>
 13. Получение истории операций в форматированном виде
     - Для получения истории операций в необходимом формате используется команда `git log --pretty=format:"%h + %cd + %an + %s"`
       <p align="center">
-         <img src="screenshots/13.png"><br>
+         <img src="screenshots/14.png"><br>
          Рисунок 14 - История операций для ветки master
       </p>
       <p align="center">
-         <img src="screenshots/14.png"><br>
+         <img src="screenshots/15.png"><br>
          Рисунок 15 - История операций для ветки report
       </p>
 ### Вывод
